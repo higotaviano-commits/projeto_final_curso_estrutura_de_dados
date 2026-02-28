@@ -13,7 +13,6 @@ public class Usuario {
         this.nome = nome;
     }
 
-
     public Conta buscarOuCriarConta(String banco, String agencia, String numero) {
         String chave = banco + "|" + agencia + "|" + numero;
         Conta conta = contas.get(chave);
